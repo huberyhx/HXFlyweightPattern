@@ -10,4 +10,9 @@
 
 @implementation HXFlowerModel
 
+- (void)setFlowerName:(NSString *)flowerName {
+        _flowerName = flowerName;
+        self.imageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:_flowerName]];
+}
+
 @end

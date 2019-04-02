@@ -15,7 +15,8 @@ typedef enum {
         HXFlowerType_Two,
         HXFlowerType_Three,
         HXFlowerType_Four,
-        HXFlowerType_Five
+        HXFlowerType_Five,
+        HXFlowerType_Total
 }HXFlowerType;
 
 @interface HXFlowerFactory : NSObject

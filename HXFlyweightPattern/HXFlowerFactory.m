@@ -16,6 +16,7 @@
         
         // 如果没取到就创建并加入享元池
         if (!flower) {
+                NSLog(@"创建一次model");
                 flower = [[HXFlowerModel alloc] init];
                 switch (type) {
                         case HXFlowerType_Zero:

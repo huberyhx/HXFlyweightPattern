@@ -6,10 +6,11 @@
 //  Copyright © 2019年 hubery. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 @interface HXFlowerModel : NSObject
 
 @property (nonatomic, copy) NSString *flowerName;
+@property(nonatomic,strong) UIImageView *imageView;
 
 @end
