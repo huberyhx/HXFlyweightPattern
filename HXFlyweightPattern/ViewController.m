@@ -11,7 +11,7 @@
 
 @interface ViewController ()
 
-@property (nonatomic, strong) NSMutableArray *personArray;
+@property (nonatomic, strong) NSMutableArray *bookArray;
 @property (nonatomic, strong) HXBookFactory *bookFactory;
 
 @end
@@ -23,23 +23,29 @@
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    [self lookLook];
+}
+
+- (void)lookLook {
     for (NSInteger i = 0; i < 1000 * 500; i++) {
+        /** 享元模式获取 */
         HXBookType type = arc4random_uniform(HXBookType_Total);
         HXBookModel *model = [self.bookFactory bookWithType:type];
-        [self.personArray addObject:model];
+        [self.bookArray addObject:model];
         
-//        HXBookModel *model = [[HXBookModel alloc] init];
-//        model.name = @"1";
-//        model.imageName = @"1-1";
-//        [self.personArray addObject:model];
+        /** 普通方式获取 */
+        //        HXBookModel *model = [[HXBookModel alloc] init];
+        //        model.name = @"1";
+        //        model.imageName = @"1-1";
+        //        [self.bookArray addObject:model];
     }
 }
 
-- (NSMutableArray *)personArray {
-    if (!_personArray) {
-        _personArray  = [[NSMutableArray alloc] init];
+- (NSMutableArray *)bookArray {
+    if (!_bookArray) {
+        _bookArray  = [[NSMutableArray alloc] init];
     }
-    return _personArray;
+    return _bookArray;
 }
 
 - (HXBookFactory *)bookFactory {
