@@ -8,30 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		05FE73E6225252EB00ED5B4D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 05FE73E5225252EB00ED5B4D /* AppDelegate.m */; };
-		05FE73E9225252EB00ED5B4D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05FE73E8225252EB00ED5B4D /* ViewController.m */; };
 		05FE73EC225252EB00ED5B4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05FE73EA225252EB00ED5B4D /* Main.storyboard */; };
 		05FE73EE225252EB00ED5B4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05FE73ED225252EB00ED5B4D /* Assets.xcassets */; };
 		05FE73F1225252EB00ED5B4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05FE73EF225252EB00ED5B4D /* LaunchScreen.storyboard */; };
 		05FE73F4225252EB00ED5B4D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 05FE73F3225252EB00ED5B4D /* main.m */; };
-		05FE73FC2252533900ED5B4D /* HXFlowerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 05FE73FB2252533900ED5B4D /* HXFlowerFactory.m */; };
-		05FE73FF2252535800ED5B4D /* HXFlowerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 05FE73FE2252535800ED5B4D /* HXFlowerModel.m */; };
+		83DA3A492254D2A000FD5651 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83DA3A482254D2A000FD5651 /* ViewController.m */; };
+		83DA3A4E2254D2A200FD5651 /* HXBookFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 83DA3A4B2254D2A200FD5651 /* HXBookFactory.m */; };
+		83DA3A4F2254D2A200FD5651 /* HXBookModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 83DA3A4D2254D2A200FD5651 /* HXBookModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		05FE73E1225252EB00ED5B4D /* HXFlyweightPattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HXFlyweightPattern.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		05FE73E4225252EB00ED5B4D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		05FE73E5225252EB00ED5B4D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		05FE73E7225252EB00ED5B4D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		05FE73E8225252EB00ED5B4D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		05FE73EB225252EB00ED5B4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		05FE73ED225252EB00ED5B4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		05FE73F0225252EB00ED5B4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		05FE73F2225252EB00ED5B4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		05FE73F3225252EB00ED5B4D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		05FE73FA2252533900ED5B4D /* HXFlowerFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HXFlowerFactory.h; sourceTree = "<group>"; };
-		05FE73FB2252533900ED5B4D /* HXFlowerFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HXFlowerFactory.m; sourceTree = "<group>"; };
-		05FE73FD2252535800ED5B4D /* HXFlowerModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HXFlowerModel.h; sourceTree = "<group>"; };
-		05FE73FE2252535800ED5B4D /* HXFlowerModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HXFlowerModel.m; sourceTree = "<group>"; };
+		83DA3A472254D2A000FD5651 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		83DA3A482254D2A000FD5651 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		83DA3A4A2254D2A200FD5651 /* HXBookFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXBookFactory.h; sourceTree = "<group>"; };
+		83DA3A4B2254D2A200FD5651 /* HXBookFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXBookFactory.m; sourceTree = "<group>"; };
+		83DA3A4C2254D2A200FD5651 /* HXBookModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXBookModel.h; sourceTree = "<group>"; };
+		83DA3A4D2254D2A200FD5651 /* HXBookModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXBookModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,12 +66,12 @@
 			children = (
 				05FE73E4225252EB00ED5B4D /* AppDelegate.h */,
 				05FE73E5225252EB00ED5B4D /* AppDelegate.m */,
-				05FE73E7225252EB00ED5B4D /* ViewController.h */,
-				05FE73E8225252EB00ED5B4D /* ViewController.m */,
-				05FE73FA2252533900ED5B4D /* HXFlowerFactory.h */,
-				05FE73FB2252533900ED5B4D /* HXFlowerFactory.m */,
-				05FE73FD2252535800ED5B4D /* HXFlowerModel.h */,
-				05FE73FE2252535800ED5B4D /* HXFlowerModel.m */,
+				83DA3A472254D2A000FD5651 /* ViewController.h */,
+				83DA3A482254D2A000FD5651 /* ViewController.m */,
+				83DA3A4A2254D2A200FD5651 /* HXBookFactory.h */,
+				83DA3A4B2254D2A200FD5651 /* HXBookFactory.m */,
+				83DA3A4C2254D2A200FD5651 /* HXBookModel.h */,
+				83DA3A4D2254D2A200FD5651 /* HXBookModel.m */,
 				05FE73EA225252EB00ED5B4D /* Main.storyboard */,
 				05FE73ED225252EB00ED5B4D /* Assets.xcassets */,
 				05FE73EF225252EB00ED5B4D /* LaunchScreen.storyboard */,
@@ -152,11 +152,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05FE73FF2252535800ED5B4D /* HXFlowerModel.m in Sources */,
-				05FE73E9225252EB00ED5B4D /* ViewController.m in Sources */,
+				83DA3A492254D2A000FD5651 /* ViewController.m in Sources */,
+				83DA3A4E2254D2A200FD5651 /* HXBookFactory.m in Sources */,
+				83DA3A4F2254D2A200FD5651 /* HXBookModel.m in Sources */,
 				05FE73F4225252EB00ED5B4D /* main.m in Sources */,
 				05FE73E6225252EB00ED5B4D /* AppDelegate.m in Sources */,
-				05FE73FC2252533900ED5B4D /* HXFlowerFactory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
