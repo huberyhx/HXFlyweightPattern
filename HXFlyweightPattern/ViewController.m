@@ -28,16 +28,16 @@
 
 - (void)lookLook {
     for (NSInteger i = 0; i < 1000 * 500; i++) {
-        /** 享元模式获取 */
+        /** 享元模式借阅 */
         HXBookType type = arc4random_uniform(HXBookType_Total);
         HXBookModel *model = [self.bookFactory bookWithType:type];
         [self.bookArray addObject:model];
         
-        /** 普通方式获取 */
-        //        HXBookModel *model = [[HXBookModel alloc] init];
-        //        model.name = @"1";
-        //        model.imageName = @"1-1";
-        //        [self.bookArray addObject:model];
+        /** 普通方式借阅 */
+//                HXBookModel *model = [[HXBookModel alloc] init];
+//                model.name = @"1";
+//                model.imageName = @"1-1";
+//                [self.bookArray addObject:model];
     }
 }
 
